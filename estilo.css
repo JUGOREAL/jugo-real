@@ -1,0 +1,123 @@
+﻿html {
+	height:100%;
+}
+body {
+height:100%;
+background:#E9C63C;/*color de la parte superior*/
+}
+main{
+background:#CECECE;/*color del resto de la pagina*/
+height:calc(100vh-100px);/*ajuste de alturas*/
+padding-top:100px;/*ajuste para la parte superior*/
+}
+
+p { 
+text-align:justify;
+font-size:20px;
+font-family:"Arial"
+}
+
+h1{ 
+font-size:30px;
+top:9;
+
+}
+h2{ 
+font-size:40px;
+}
+h3{
+font-size:25px;
+}
+
+.imagen-grande{
+
+width:1000px;
+ height:250px;
+}
+
+img {
+width:600px;
+height:250px;
+}
+
+
+logo {
+
+}
+
+}
+section {
+	width: 79%;
+	background: #c4dafa;
+	float: left;
+	overflow: auto;
+	padding-bottom: 60px;
+	padding-top:30px;
+}
+
+
+container{
+display:flex;}
+
+content {
+  width: 70%; /* Ancho del contenido */
+  padding: 20px;
+positiob:fixed;
+padding-top:50px;/*ajusta el valor segun sea necesario*/}
+}
+table {
+  width: 50%; /* Ancho de la tabla de contenido */
+  position:-webkit-skicky;
+position:skicky;
+top:0;
+}
+
+nav{
+background:#1F2D96;
+  position:skicky;
+top:9;
+        left:0;
+width:100%;
+z-index:100;
+}
+header {
+  position: fixed;
+  top: 20px; /* Distancia desde arriba */;
+  left: 30;
+  width: 30%; /* Ancho de la tabla de contenido */;
+  background-color: #98c3ed; /* Color de fondo del menú */
+ padding: 20px;
+
+}
+footer {
+  background-color: #f2f2f2;
+  padding: 20px;
+display: flex;
+  justify-content: space-between;
+  
+}
+
+.recomendados, .redes-sociales {
+  display: inline-block;
+  margin: 0 20px;
+ flex: 1;
+
+}
+
+/* Estilos para los enlaces */
+a {
+  color: #333;
+  text-decoration: none;
+  transition: color 0.3s; /* Transición suave del color al pasar el cursor */
+}
+a:hover {
+  color: #ff6600; /* Cambio de color al pasar el cursor */
+}
+.imagen-derecha img {
+  float: right;
+}
+g
+
+figure {
+	display: table; margin: 0 auto;
+}
